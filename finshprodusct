@@ -1,0 +1,7 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/narvdoeslua/notifacation.lib/main/lib1"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/narvdoeslua/notifacation.lib/main/biglib2"))()
+
+Notification:Notify(
+    {Title = "discord.gg/thunderstorm", Description = "keybind = C"},
+    {OutlineColor = Color3.fromRGB(255, 255, 255),Time = 10, Type = "default"}
+)
